@@ -1,3 +1,4 @@
+#Fase futura do projeto:
 import json
 import time
 from datetime import datetime
@@ -50,9 +51,9 @@ def iniciar_sessao():
         nome_arquivo = f"data/sessao_{id_crianca}_{inicio.strftime('%H%M%S')}.json"
         with open(nome_arquivo, 'w', encoding='utf-8') as f:
             json.dump(dados_finais, f, indent=4, ensure_ascii=False)
-        print(f"✅ Sucesso! Arquivo {nome_arquivo} gerado.")
+        print(f" Sucesso! Arquivo {nome_arquivo} gerado.")
     else:
-        print("⚠️ Sessão descartada. Nenhum arquivo foi gerado.")
+        print(" Sessão descartada. Nenhum arquivo foi gerado.")
 
 if __name__ == "__main__":
     iniciar_sessao()

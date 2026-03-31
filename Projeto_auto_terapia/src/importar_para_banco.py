@@ -1,3 +1,4 @@
+#Logica para a fase futura de gerar relatorios de evolução 
 import json
 import sqlite3
 import os
@@ -109,7 +110,7 @@ def importar_sistema_castor(caminho_json):
     
     conn.commit()
     conn.close()
-    print(f"🚀 PROJETO INTEGRADO! Dados da criança {meta['id_crianca']} salvos no terapia.db")
+    print(f" PROJETO INTEGRADO! Dados da criança {meta['id_crianca']} salvos no terapia.db")
 
 if __name__ == "__main__":
     # Teste final com o seu JSON
