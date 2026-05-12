@@ -1,0 +1,16 @@
+# Pastas de ambiente virtual
+.venv/
+venv/
+env/
+
+# Arquivos temporários do Python
+__pycache__/
+*.pyc
+
+# Configurações do Streamlit e sistema
+.streamlit/
+.DS_Store
+Thumbs.db
+
+# Banco de dados (opcional - remova o # se não quiser subir o arquivo .db)
+# data/terapia.db
