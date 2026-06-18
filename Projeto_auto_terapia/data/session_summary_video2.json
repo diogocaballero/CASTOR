@@ -1,0 +1,36 @@
+{
+  "events": [
+    {
+      "event_type": "proximidade",
+      "start_sec": 0.0,
+      "end_sec": 15.3,
+      "duration_sec": 15.3,
+      "peak_gaze_prob": 0.0,
+      "peak_touch_prob": 1.0,
+      "predominant_zone": "zona_3",
+      "confidence": 0.7843478260869564
+    }
+  ],
+  "metrics": {
+    "session_name": "sessao",
+    "video_path": "data/video1.mp4",
+    "fps": 30.0,
+    "total_frames_video": 460,
+    "frames_processados": 460,
+    "tempo_total_s": 15.3,
+    "tempo_crianca_visivel_s": 15.333,
+    "tempo_olhando_castor_s": 0,
+    "tempo_toque_s": 0.167,
+    "tempo_interacao_s": 15.333,
+    "num_eventos": 1,
+    "distancia_media_cm": 148.774,
+    "distancia_min_cm": 0.682,
+    "gaze_prob_media": 0.0,
+    "zonas": {
+      "zona_3": 422,
+      "zona_1": 27,
+      "zona_2": 11
+    },
+    "score_global_0_100": 17.39
+  }
+}
