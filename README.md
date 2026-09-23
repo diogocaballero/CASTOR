@@ -23,26 +23,47 @@ Este repositório contém a **versão estática e offline** do projeto, respons�
    Estrutura do repositorio
 
    📁 Projeto_auto_terapia/
+
 ├── 📁 data/                           # Diretório de armazenamento de logs e banco de dados
-│   ├── 📄 frame_metrics.csv           
-│   ├── 📄 frames_metrics2.csv         
-│   ├── 📄 interaction_events.csv      
+
+│   ├── 📄 frame_metrics.csv 
+
+│   ├── 📄 frames_metrics2.csv 
+
+│   ├── 📄 interaction_events.csv  
+
 │   ├── 📄 session_summary_video1.json 
-│   ├── 📄 session_summary_video2.json 
+
+│   ├── 📄 session_summary_video2.json
+
 │   ├── 📄 terapia.db                  # Banco de dados SQLite principal
-│   └── 📄 terapia1.db                
+
+│   └── 📄 terapia1.db  
+
 
 ├── 📁 src/                            # Código-fonte da aplicação
-│   ├── 📄 app.py                      # Ponto de entrada do dashboard Streamlit * 
-│   ├── 📄 captura_sessao.py           #teste
-│   ├── 📄 database_setup.py           # Configuração de tabelas do banco de dados *
-│   ├── 📄 importador_real.py          #importa os dados para o banco
-│   ├── 📄 importar_para_banco.py      # Rotina de injeção de dados no SQLite
-│   ├── 📄 macaco.jpg                  #imagem da logo aleatorio
-│   ├── 📄 semana_12.py                #apenas um verificação de dados de proximidade
+│   
+├── 📄 app.py                      # Ponto de entrada do dashboard Streamlit * 
+│   
+├── 📄 captura_sessao.py           #teste
+│   
+├── 📄 database_setup.py           # Configuração de tabelas do banco de dados *
+│   
+├── 📄 importador_real.py          #importa os dados para o banco
+│   
+├── 📄 importar_para_banco.py      # Rotina de injeção de dados no SQLite
+│   
+├── 📄 macaco.jpg                  #imagem da logo aleatorio
+│  
+├── 📄 semana_12.py                #apenas um verificação de dados de proximidade
+
 │   └── 📄 verificar_dados.py          # Script de validação de integridade
 
-├── 📁 venv/                           # Ambiente virtual Python[cite: 6]
-├── 📄 .gitignore                      #[cite: 6]
-├── 📄 requirements.txt                # Dependências do projeto[cite: 6]
-└── 📄 README.md                       # Documentação do repositório[cite: 6]
+├── 📁 venv/                           # Ambiente virtual Python
+
+├── 📄 .gitignore                  
+
+├── 📄 requirements.txt                # Dependências do projeto
+
+└── 📄 README.md                       # Documentação do repositório
+
