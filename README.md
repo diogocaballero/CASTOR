@@ -24,7 +24,7 @@ Este repositório contém a **versão estática e offline** do projeto, respons�
 
    📁 Projeto_auto_terapia/
 
-├── 📁 data/                           # Diretório de armazenamento de logs e banco de dados
+├── 📁 data/                            # Diretório de armazenamento de logs e banco de dados
 
 │   ├── 📄 frame_metrics.csv 
 
@@ -36,26 +36,26 @@ Este repositório contém a **versão estática e offline** do projeto, respons�
 
 │   ├── 📄 session_summary_video2.json
 
-│   ├── 📄 terapia.db                  # Banco de dados SQLite principal
+│   ├── 📄 terapia.db                   # Banco de dados SQLite principal
 
 │   └── 📄 terapia1.db  
 
 
 ├── 📁 src/                            # Código-fonte da aplicação
 │   
-├── 📄 app.py                      # Ponto de entrada do dashboard Streamlit * 
+├── 📄 app.py                          # Ponto de entrada do dashboard Streamlit * 
 │   
-├── 📄 captura_sessao.py           #teste
+├── 📄 captura_sessao.py               #teste
 │   
-├── 📄 database_setup.py           # Configuração de tabelas do banco de dados *
+├── 📄 database_setup.py               # Configuração de tabelas do banco de dados *
 │   
-├── 📄 importador_real.py          #importa os dados para o banco
+├── 📄 importador_real.py             #importa os dados para o banco
 │   
-├── 📄 importar_para_banco.py      # Rotina de injeção de dados no SQLite
+├── 📄 importar_para_banco.py         # Rotina de injeção de dados no SQLite
 │   
-├── 📄 macaco.jpg                  #imagem da logo aleatorio
+├── 📄 macaco.jpg                     #imagem da logo aleatorio
 │  
-├── 📄 semana_12.py                #apenas um verificação de dados de proximidade
+├── 📄 semana_12.py                   #apenas um verificação de dados de proximidade
 
 │   └── 📄 verificar_dados.py          # Script de validação de integridade
 
