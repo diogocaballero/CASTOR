@@ -1,5 +1,7 @@
 Projeto Castor — Módulo Offline
 
+
+
 Este projeto faz parte de uma pesquisa de Iniciação Científica da
 Universidade Federal do Espírito Santo (UFES), voltada ao desenvolvimento
 do robô assistente para terapia infantil Castor.
@@ -89,26 +91,42 @@ Projeto_auto_terapia/
 │
 ├── data/
 │   ├── frame_metrics.csv
+
 │   ├── frames_metrics2.csv
+
 │   ├── interaction_events.csv
+
 │   ├── session_summary_video1.json
+
 │   ├── session_summary_video2.json
+
 │   ├── terapia.db
+
 │   └── terapia1.db
 │
 ├── src/
 │   ├── app.py
+
 │   ├── captura_sessao.py
+
 │   ├── database_setup.py
+
 │   ├── importador_real.py
+
 │   ├── importar_para_banco.py
+
 │   ├── macaco.jpg
+
 │   ├── semana_12.py
+
 │   └── verificar_dados.py
 │
 ├── venv/
+
 ├── .gitignore
+
 ├── requirements.txt
+
 └── README.md
 
 
