@@ -89,6 +89,7 @@ durante a análise da sessão.
 
 Projeto_auto_terapia/
 │
+
 ├── data/
 
 │   ├── frame_metrics.csv
@@ -106,6 +107,7 @@ Projeto_auto_terapia/
 │   └── terapia1.db
 │
 ├── src/
+
 │   ├── app.py
 
 │   ├── captura_sessao.py
