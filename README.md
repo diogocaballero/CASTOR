@@ -106,7 +106,7 @@ Projeto_auto_terapia/
 
 │   └── terapia1.db
 
-│
+
 ├── src/
 
 │   ├── app.py
@@ -125,7 +125,7 @@ Projeto_auto_terapia/
 
 │   └── verificar_dados.py
 
-│
+
 ├── venv/
 
 ├── .gitignore
