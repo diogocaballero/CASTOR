@@ -105,6 +105,7 @@ Projeto_auto_terapia/
 │   ├── terapia.db
 
 │   └── terapia1.db
+
 │
 ├── src/
 
@@ -123,6 +124,7 @@ Projeto_auto_terapia/
 │   ├── semana_12.py
 
 │   └── verificar_dados.py
+
 │
 ├── venv/
 
