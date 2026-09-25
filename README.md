@@ -90,6 +90,7 @@ durante a análise da sessão.
 Projeto_auto_terapia/
 │
 ├── data/
+
 │   ├── frame_metrics.csv
 
 │   ├── frames_metrics2.csv
